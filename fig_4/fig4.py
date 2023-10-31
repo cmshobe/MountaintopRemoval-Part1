@@ -34,20 +34,20 @@ slope_ratios = df_clip.post_mean_slope / df_clip.pre_mean_slope
 SA_ratios = df_clip.post_mean_SA / df_clip.pre_mean_SA
 
 #import MCMC sampling data from Bayesian Spearman correlation
-df_MCMC_RATIO_elev = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_RATIO_elev_samples.csv')
-df_MCMC_RATIO_slope = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_RATIO_slope_samples.csv')
-df_MCMC_RATIO_SA = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_RATIO_SA_samples.csv')
-df_MCMC_W2_elev = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_W2_elev_samples.csv')
-df_MCMC_W2_slope = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_W2_slope_samples.csv')
-df_MCMC_W2_SA = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_W2_SA_samples.csv')
+df_MCMC_RATIO_elev = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_RATIO_elev_samples.csv')
+df_MCMC_RATIO_slope = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_RATIO_slope_samples.csv')
+df_MCMC_RATIO_SA = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_RATIO_SA_samples.csv')
+df_MCMC_W2_elev = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_W2_elev_samples.csv')
+df_MCMC_W2_slope = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_W2_slope_samples.csv')
+df_MCMC_W2_SA = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_W2_SA_samples.csv')
 
 #import MCMC summary stats
-summ_stats_RATIO_elev = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_RATIO_elev.csv')
-summ_stats_RATIO_slope = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_RATIO_slope.csv')
-summ_stats_RATIO_SA = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_RATIO_SA.csv')
-summ_stats_W2_elev = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_W2_elev.csv')
-summ_stats_W2_slope = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_W2_slope.csv')
-summ_stats_W2_SA = pd.read_csv('bayesian_stats/osfstorage-archive/charlie_spearman_bayes_W2_SA.csv')
+summ_stats_RATIO_elev = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_RATIO_elev.csv')
+summ_stats_RATIO_slope = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_RATIO_slope.csv')
+summ_stats_RATIO_SA = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_RATIO_SA.csv')
+summ_stats_W2_elev = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_W2_elev.csv')
+summ_stats_W2_slope = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_W2_slope.csv')
+summ_stats_W2_SA = pd.read_csv('bayesian_rank_correlations/outputs/spearman_bayes_W2_SA.csv')
 
 from matplotlib import gridspec
 import seaborn as sb

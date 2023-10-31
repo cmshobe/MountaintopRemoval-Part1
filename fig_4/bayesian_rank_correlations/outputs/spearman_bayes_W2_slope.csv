@@ -1,0 +1,7 @@
+"labels_column","values_column"
+"posterior_median",0.233166569898628
+"bayes_factor",1.76668581740918
+"cred_interval_99_min",-0.0200298405773869
+"cred_interval_99_max",0.455195921577626
+"cred_interval_95_min",0.0407211916866964
+"cred_interval_95_max",0.4085288696925
