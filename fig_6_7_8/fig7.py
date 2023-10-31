@@ -13,7 +13,8 @@
 #al. (2016), which can be found at 
 #https://doi.org/10.6084/m9.figshare.12846764.v1 (pre-mining) and 
 #https://doi.org/10.6084/m9.figshare.12846788.v1 (post-mining). Mined extents were
-#derived from the dataset of Pericak et al. (2018; https://skytruth.org/mountaintop-mining/).
+#derived from the dataset of Pericak et al. (2018; https://skytruth.org/mountaintop-mining/),
+#and are archived for our five study watersheds in the 'mining_masks' folder.
 #Depressions were identified using the PriorityFlood algorithm 
 #(https://richdem.readthedocs.io/en/latest/flow_metrics.html; Barnes, 2017) in Landlab 
 #(https://landlab.readthedocs.io/en/master/; Barnhart et al., 2020).
