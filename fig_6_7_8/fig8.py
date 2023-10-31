@@ -1,5 +1,5 @@
 ########################################################################
-#This script generates data for Figures 6-8 in the following manuscript:
+#This script generates Figure 7 in the following manuscript:
 
 #Shobe, C.M., Bower, S.J., Maxwell, A.E., Glade, R.C., and Samassi, N.M. (2023) The 
 #uncertain future of mountaintop-removal-mined landscapes 1: How mining changes erosion 
@@ -7,20 +7,15 @@
 
 #Please cite the paper if you use this code in any way.
 
-#Brief description: this script generates data for figures that calculate the size, area,
-#and volume of closed depressions in pre- and post-mining digital elevation models. We
-#completed this analysis for five watersheds: Ben Creek, Laurel Creek, Mud River, 
-#Spruce Fork, and White Oak Creek. Pre- and Post-mining DEMs of these watersheds were 
-#clipped from regional DEMs created by Ross et al. (2016), which can be found at 
+#Brief description: this script generates Figure 8, which documents the total volume of
+#closed depression sizes in our five pre- and post-mining study watersheds. Pre- and 
+#Post-mining DEMs of these watersheds were clipped from regional DEMs created by Ross et 
+#al. (2016), which can be found at 
 #https://doi.org/10.6084/m9.figshare.12846764.v1 (pre-mining) and 
-#https://doi.org/10.6084/m9.figshare.12846788.v1 (post-mining). Flow routing in this 
-#script uses the PriorityFlood algorithm 
+#https://doi.org/10.6084/m9.figshare.12846788.v1 (post-mining).
+#Depressions were identified using the PriorityFlood algorithm 
 #(https://richdem.readthedocs.io/en/latest/flow_metrics.html; Barnes, 2017) in Landlab 
 #(https://landlab.readthedocs.io/en/master/; Barnhart et al., 2020).
-
-#NOTE: the folder 'flowrouting_output', which holds the results of this analysis, is
-#empty in our archived version because the file sizes are too large to archive (total 
-#several GB). This script will generate those outputs.
 
 ########################################################################
 
