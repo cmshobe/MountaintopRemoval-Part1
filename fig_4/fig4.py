@@ -7,7 +7,7 @@
 
 #Please cite the paper if you use this code in any way.
 
-#Brief description: this script generates a figure that compare the topography of
+#Brief description: this script generates a figure that compares the topography of
 #pre- and post- mining topography (elevation, slope, and area-slope product) for 88
 #Hydrologic Unit Code 12 (HUC-12) watersheds as a function of proportion of the 
 #watershed mined. These calculations use a number of existing datasets that are already
