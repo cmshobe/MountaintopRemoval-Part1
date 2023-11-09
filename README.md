@@ -1,10 +1,12 @@
-# shobe_etal_MTR_part1
+# MountaintopRemoval-Part1
 Software and data for Shobe et al. (resubmitted to *Geomorphology*): The 
 uncertain future of mountaintop-removal-mined landscapes 1: How mining changes erosion 
 processes and variables.
 
 Archived by Charlie Shobe, U.S. Forest Service Rocky Mountain Research 
-Station (charles.shobe@usda.gov)
+Station (charles.shobe@usda.gov).
+
+[![DOI](https://zenodo.org/badge/712122852.svg)](https://zenodo.org/doi/10.5281/zenodo.10059513)
 
 ---
 
